@@ -1,0 +1,92 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_TABVIEW_LabelTitle_RESID L"&View" /* LabelTitle IDC_CMD_TABVIEW_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_TABVIEW_LabelDescription_RESID L"View options" /* LabelDescription IDC_CMD_TABVIEW_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_TABABOUT_LabelTitle_RESID L"&About" /* LabelTitle IDC_CMD_TABABOUT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_TABABOUT_LabelDescription_RESID L"About program" /* LabelDescription IDC_CMD_TABABOUT_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupShowHide_LabelTitle_RESID L"Show/Hide options" /* LabelTitle cmdGroupShowHide_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupAbout_LabelTitle_RESID L"&" /* LabelTitle cmdGroupAbout_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_HIDDEN_LabelTitle_RESID L"&Hidden items" /* LabelTitle ID_CMD_HIDDEN_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_HIDDEN_LabelDescription_RESID L"Show/Hide hidden files and folders" /* LabelDescription ID_CMD_HIDDEN_LabelDescription_RESID: (null) */
+END
+
+ID_CMD_HIDDEN_LargeImages_RESID    IMAGE    "ICON\\hidden.png" /* LargeImages ID_CMD_HIDDEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_SYSTEM_LabelTitle_RESID L"&System items" /* LabelTitle ID_CMD_SYSTEM_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_SYSTEM_LabelDescription_RESID L"Show/Hide system files and folders" /* LabelDescription ID_CMD_SYSTEM_LabelDescription_RESID: (null) */
+END
+
+ID_CMD_SYSTEM_LargeImages_RESID    IMAGE    "ICON\\system.png" /* LargeImages ID_CMD_SYSTEM_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_LabelTitle_RESID L"E&xit" /* LabelTitle ID_CMD_EXIT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_LabelDescription_RESID L"Exit program" /* LabelDescription ID_CMD_EXIT_LabelDescription_RESID: (null) */
+END
+
+ID_CMD_EXIT_LargeImages_RESID    IMAGE    "ICON\\exit.png" /* LargeImages ID_CMD_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ABOUT_LabelTitle_RESID L"A&bout" /* LabelTitle ID_CMD_ABOUT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_ABOUT_LabelDescription_RESID L"About this program" /* LabelDescription ID_CMD_ABOUT_LabelDescription_RESID: (null) */
+END
+
+ID_CMD_ABOUT_LargeImages_RESID    IMAGE    "ICON\\about.png" /* LargeImages ID_CMD_ABOUT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdHelpButton_LabelTitle_RESID L"Label:cmdHelpButton" /* LabelTitle cmdHelpButton_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"

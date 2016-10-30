@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+
+    <Command Name="cmdTabView"
+             LabelDescription="View options"
+             Symbol="IDC_CMD_TABVIEW"
+             LabelTitle="&amp;View">
+    </Command>
+    
+    <Command Name="cmdTabAbout"
+               LabelDescription="About program"
+               Symbol="IDC_CMD_TABABOUT"
+               LabelTitle="&amp;About" >
+      </Command>
+    
+    
+
+    <Command Name="cmdGroupShowHide">
+      <Command.LabelTitle>
+        <String>Show/Hide options</String>
+      </Command.LabelTitle>
+    </Command>
+
+    <Command Name="cmdGroupAbout">
+      <Command.LabelTitle>
+        <String> &amp;</String>
+      </Command.LabelTitle>
+    </Command>
+
+    <Command Name="cmdToggleButtonHidden"
+             Symbol="ID_CMD_HIDDEN"
+             LabelTitle="&amp;Hidden items"
+             LabelDescription ="Show/Hide hidden files and folders">
+      <Command.LargeImages>
+        <Image>ICON/hidden.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdToggleButtonSystem"
+             Symbol="ID_CMD_SYSTEM"
+             LabelTitle="&amp;System items"
+             LabelDescription ="Show/Hide system files and folders">
+      <Command.LargeImages>
+        <Image>ICON/system.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonExit"
+             Symbol="ID_CMD_EXIT"
+             LabelTitle="E&amp;xit"
+             LabelDescription ="Exit program">
+      <Command.LargeImages>
+        <Image>ICON/exit.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonAbout"
+         Symbol="ID_CMD_ABOUT"
+         LabelTitle="A&amp;bout"
+         LabelDescription ="About this program">
+      <Command.LargeImages>
+        <Image>ICON/about.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+  </Application.Commands>
+
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu>
+          <MenuGroup>
+            <Button CommandName='cmdButtonExit' />
+          </MenuGroup>
+          
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      <Ribbon.HelpButton>
+          <HelpButton CommandName="cmdHelpButton" />
+       </Ribbon.HelpButton>
+      <Ribbon.Tabs>
+        <Tab CommandName="cmdTabView">
+          <Group CommandName="cmdGroupShowHide"
+                 SizeDefinition="TwoButtons">
+            <ToggleButton CommandName="cmdToggleButtonHidden"/>
+            <ToggleButton CommandName="cmdToggleButtonSystem" />
+          </Group>
+        </Tab>
+        
+        <Tab CommandName="cmdTabAbout">
+          <Group CommandName="cmdGroupAbout"
+                 SizeDefinition="OneButton">
+            <Button CommandName="cmdButtonAbout"/>
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
